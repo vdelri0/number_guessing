@@ -1,4 +1,5 @@
 import random
+from art import logo
 
 attempts = 5
 
@@ -8,6 +9,7 @@ def number_guessing(attempts):
     play_guessing = True
     lose = False
 
+    print(logo + "\n")
     print("¡Welcome to the Number Guessing Game!")
     print("I'm thinking of a number between 1 and 100.")
     print(f"You have {attempts} attempts remaining to guess the number.")
